@@ -80,6 +80,7 @@ label {
   color: #ffffff;
 }
 
+
 .nav-home {
   top: 0;
   left: 0;
@@ -499,5 +500,55 @@ h3{
         box-shadow: 0 2px 20px rgba(0, 0, 0, 0.089);
         transition: transform 200ms ease-in-out;
         cursor: pointer;
+        }
+      }
+      @media screen and (max-width: 600px) {
+        .header-container {
+          display: flex;
+          margin: 0 277px;
+          margin-bottom: 20px;
+          margin-top: 130px;
+          justify-content: center;
+          padding: 30px;
+        }
+      }
+
+
+      @media screen and (max-width: 600px) {
+        .nav-home {
+          top: 0;
+          left: 0;
+          position: fixed;
+          width: 100%;
+          position: fixed;
+          background-color: #f3f3f3;
+          z-index: 9999;
+        }
+      }
+
+
+      @media screen and (max-width: 600px) {
+        .nav-logo {
+          cursor: pointer;
+          margin-left: 277px;
+        }
+      }
+
+
+      @media screen and (max-width: 600px) {
+        .bottomlinks {
+          background: #151414;
+          color: white;
+          font-size: 12px;
+          padding: 35px 0;
+        }
+      }
+      @media screen and (max-width: 600px) {
+        .link {
+          margin: 0 277px;
+          padding: 50px 20px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
         }
       }
