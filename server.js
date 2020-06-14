@@ -17,13 +17,6 @@ app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname + '/build/index.html'));
 })
 
- 
-
-const usersRouter = require(__dirname + '/routes/users.js');
-app.use('/users', usersRouter);
-
- 
-
 app.listen(port, () => {
   console.log(`Server is runing on port: ${port}`);
 });
